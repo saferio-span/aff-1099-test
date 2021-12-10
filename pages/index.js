@@ -101,15 +101,13 @@ export default function Home() {
                     </div>
                 </section>
 
-
-
-
-
                 <section className=" py-5" id="duedate">
+
+                    {/* section 2 div 1 */}
                     <div className="container text-center my-3" id="form1099Nec">
                         <div className="row">
                             <div className="row">
-                                <div className="col-12 col-lg-12 col-xl-10 mx-auto text-center">
+                                <div className="col-sm-12 col-lg-12 col-xl-10 mx-auto text-center">
                                     <h2 className="common_h2 mb-2"> What is <span className="green">Form 1099 NEC </span>?</h2>
                                     <hr className="line mt-1" />
                                 </div>
@@ -125,7 +123,6 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
                     <br />
@@ -137,6 +134,7 @@ export default function Home() {
                     </div>
                     <br />
 
+                    {/* section 2 div 2 */}
                     <div className="container py-3 " id="changes">      
                         <div className="row">
                             <div className="col-12 col-lg-12 col-xl-10 mx-auto text-center">
@@ -172,7 +170,6 @@ export default function Home() {
                         </div>
                         <p className="mTop20 text-center"><a href="https://www.taxbandits.com/1099-forms/form-1099-nec-changes-for-2021/" className="btns text-center mt-5">E-file 1099-NEC Now</a></p>
                         <p className="mTop20 text-center mb-4"><i>Visit <a href="https://www.taxbandits.com/1099-forms/form-1099-nec-changes-for-2021/" rel="noopener noreferrer" target="_blank">https://www.taxbandits.com/1099-forms/form-1099-nec-changes-for-2021/</a> to learn more about <a href="https://www.taxbandits.com/1099-forms/form-1099-nec-changes-for-2021/" rel="noopener noreferrer" target="_blank">Form 1099 NEC  <br className="hidden-sm-down hidden-md-down hidden-xs-down" />changes Line by Line Instructions</a>.</i></p>
-
                     </div>
 
                     <div className="container">
