@@ -7,7 +7,7 @@ export default function Home() {
 
   const opts = {
     height: "390",
-    width: "630",
+    width: "100%",
     playerVars: {
       autoplay: 1,
     },
@@ -112,7 +112,7 @@ export default function Home() {
                                     <hr className="line mt-1" />
                                 </div>
                             </div>
-                            <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8 offset-2 text-center">
+                            <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8 offset-lg-2 text-center">
                                 <p className="text-center">
                                 <a href="https://www.taxbandits.com/1099-forms/what-is-form-1099-nec/">Form 1099-NEC</a> is an IRS tax form used to report nonemployee compensation. <b>Payers should use this form if they have paid $600 or more to a vendor, independent contractor, or freelance worker during the tax year</b>. In addition to <a href="https://www.taxbandits.com/1099-forms/efile-form-1099-nec-online/">filing Form 1099-NEC</a> with the IRS, payers must also furnish a copy to their recipients. 
                                 </p>
