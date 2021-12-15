@@ -79,12 +79,11 @@ export default function Home() {
         </header>
         <main id="main">
             <article>
-                <section id="banner" className="banner_bg set-border1 mt-3">
+                <section id="banner" className="banner_bg mt-3">
                     <div className="container">
-                        <div className="row">
+                        <div className="row vertical-align">
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
-                                <h1 className="mb-3 text-center"><span className="text-blue">IRS Form 1099 NEC for 2021 Tax Year</span></h1>
-                                <hr className="line mt-1 d-block mx-auto" />
+                                <h1 className="mb-3 text-center"><span className="text-blue">IRS Form 1099 NEC<br/> for 2021 Tax Year</span></h1>
                                 <p className="text-center">
                                 File Form 1099-NEC to Report Nonemployee Compensation
                                 </p>
@@ -105,14 +104,10 @@ export default function Home() {
 
                     {/* section 2 div 1 */}
                     <div className="container text-center my-3" id="form1099Nec">
-                        <div className="row">
-                            <div className="row">
-                                <div className="col-sm-12 col-lg-12 col-xl-10 mx-auto text-center">
-                                    <h2 className="common_h2 mb-2"> What is <span className="green">Form 1099 NEC </span>?</h2>
-                                    <hr className="line mt-1" />
-                                </div>
-                            </div>
-                            <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8 offset-lg-2 offset-xl-2 offset-md-2 text-center">
+                        <div className="row ">
+                            <div className="col-8 mx-auto ">
+                                <h2 className="common_h2"> What is <span className="green">Form 1099 NEC </span>?</h2>
+                                <br />
                                 <p className="text-center">
                                 <a href="https://www.taxbandits.com/1099-forms/what-is-form-1099-nec/">Form 1099-NEC</a> is an IRS tax form used to report nonemployee compensation. <b>Payers should use this form if they have paid $600 or more to a vendor, independent contractor, or freelance worker during the tax year</b>. In addition to <a href="https://www.taxbandits.com/1099-forms/efile-form-1099-nec-online/">filing Form 1099-NEC</a> with the IRS, payers must also furnish a copy to their recipients. 
                                 </p>
@@ -137,11 +132,11 @@ export default function Home() {
                     {/* section 2 div 2 */}
                     <div className="container py-3 " id="changes">      
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-xl-10 mx-auto text-center">
+                            <div className="col-12 col-lg-12 col-xl-12 mx-auto text-center">
                                 <h2 className="common_h2 mb-2">What are IRS <span className="green">Form 1099 NEC</span> changes for the 2021 Tax Year?</h2>
-                                <hr className="line mt-3 hidden-md-down text-center" />
                             </div>
-                        </div>              
+                        </div>
+                        <br />              
                         <div className="row vertical-align">
                             <div className="col-md-6 duedate_lft">
                                 
@@ -152,12 +147,15 @@ export default function Home() {
                                     <i>The following are the changes made by the IRS to the 1099-NEC Form:</i>
                                 </p>
                                 <div >
-                                    <ol className="list-unstyled unordered_list">
-                                        <li className="text-left"><b>Box 1:</b> It will not be used for reporting cash payments for the purchase of fish for resale purposes under section 6050R.</li>
-                                        <li className="text-left"><b>Box 2:</b> New box updated to report any sales of $5,000 or more of consumer products for resale, on buy-sell, deposit-commission, or any other basis.</li>
-                                        <li className="text-left"><b>FATCA Filing Requirements:</b> The IRS has removed the Check box for FATCA Filing Requirement from the <a className="" href="https://www.taxbandits.com/1099-forms/what-is-form-1099-nec/">1099 NEC Form.</a></li>
-                                        <li className="text-left"><b>Form Size Changes:</b> The IRS has reduced the height of the form so that it can accommodate 3 forms on a single page.</li>
-                                    </ol>
+                                    <div className='mx-5'>
+                                        <ol className="list-unstyled unordered_list">
+                                            <li className="text-left"><b>Box 1:</b> It will not be used for reporting cash payments for the purchase of fish for resale purposes under section 6050R.</li>
+                                            <li className="text-left"><b>Box 2:</b> New box updated to report any sales of $5,000 or more of consumer products for resale, on buy-sell, deposit-commission, or any other basis.</li>
+                                            <li className="text-left"><b>FATCA Filing Requirements:</b> The IRS has removed the Check box for FATCA Filing Requirement from the <a className="" href="https://www.taxbandits.com/1099-forms/what-is-form-1099-nec/">1099 NEC Form.</a></li>
+                                            <li className="text-left"><b>Form Size Changes:</b> The IRS has reduced the height of the form so that it can accommodate 3 forms on a single page.</li>
+                                        </ol>
+                                    </div>
+                                    
                                     
                                     <a className="" href="https://www.taxbandits.com/1099-forms/form-1099-nec-changes-for-2021/">Know more</a> about the <a className="" href="https://www.taxbandits.com/1099-forms/form-1099-nec-changes-for-2021/">Form 1099-NEC changes</a> for the 2021 tax year in detail
                                 </div>
@@ -184,7 +182,7 @@ export default function Home() {
                             1099 NEC Form?
                             </span>
                         </h2>
-                        <hr className="line mt-1 d-block mx-auto" />
+                        <br /> 
 
                         <div className="row mt-4">
                             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 card-group">
@@ -259,14 +257,16 @@ export default function Home() {
                                 
 
                                 <p className="text-center text-md-start">E-filing is by far the best option when it comes time to <a href="https://www.taxbandits.com/request-form-w9-online/"><b>file Forms 1099-NEC</b></a> with the IRS. Filing electronically is more accurate, efficient, and cost-effective. </p>
+                                <div className="mx-5">
+                                    <ol className="pl-5 list-unstyled unordered_list" type="1">
+                                    <li key="1"><p><b>Payer Details:</b> Name, TIN, and Address</p></li>
+                                    <li key="2"><p><b>Recipient Details:</b>  Name, TIN, and Address</p></li>
+                                    <li key="3"><p>Nonemployee compensation</p></li>
+                                    <li key="4"><p><b>Federal Details:</b> Miscellaneous Incomes and Federal Tax Withheld</p></li>
+                                    <li key="5"><p><b>State Filing Details:</b> State Income, Payer State Number, and State Tax Withheld</p></li>
+                                    </ol> 
+                                </div>
                                 
-                                <ol className="pl-5 list-unstyled unordered_list" type="1">
-                                  <li key="1"><p><b>Payer Details:</b> Name, TIN, and Address</p></li>
-                                  <li key="2"><p><b>Recipient Details:</b>  Name, TIN, and Address</p></li>
-                                  <li key="3"><p>Nonemployee compensation</p></li>
-                                  <li key="4"><p><b>Federal Details:</b> Miscellaneous Incomes and Federal Tax Withheld</p></li>
-                                  <li key="5"><p><b>State Filing Details:</b> State Income, Payer State Number, and State Tax Withheld</p></li>
-                                </ol> 
     
                             </div>
                         </div>
@@ -279,7 +279,7 @@ export default function Home() {
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                 <h2 className="mb-3 text-center"><span className="text-blue">How to File 1099 NEC Form Electronically</span></h2>
-                                <hr className="line mt-1 d-block mx-auto" />
+                                <br /> 
                                 <p className="text-left">
                                   With TaxBandits, you can expect an e-filing process that is simple, secure, and designed for accuracy. To begin filing just follow these simple steps Once you review and transmit your form, our team will continue to update you on it’s status with the IRS. 
                                 </p>
@@ -353,12 +353,15 @@ export default function Home() {
                                 <br />
                                 <div className="row">
                                     <div className="col-12">
-                                        <ul className="pl-5 list-unstyled unordered_list" type="1">
-                                            <li key="1_step"><p><b>Filing 1099-NEC after the deadline, Not more than 30 days late</b> $50/per return.</p></li>
-                                            <li key="2_step"><p><b>Filing between 31 days late and August 1</b> - $120/per return.</p></li>
-                                            <li key="3_step"><p><b>Filing after August 1 or not filing at all</b> - $280/per return.</p></li>
-                                            <li key="4_step"><p><b>Not filing the return intentionally</b> - $550/per return.</p></li>
-                                        </ul> 
+                                        <div className="mx-5">
+                                            <ul className="pl-5 list-unstyled unordered_list" type="1">
+                                                <li key="1_step"><p><b>Filing 1099-NEC after the deadline, Not more than 30 days late</b> $50/per return.</p></li>
+                                                <li key="2_step"><p><b>Filing between 31 days late and August 1</b> - $120/per return.</p></li>
+                                                <li key="3_step"><p><b>Filing after August 1 or not filing at all</b> - $280/per return.</p></li>
+                                                <li key="4_step"><p><b>Not filing the return intentionally</b> - $550/per return.</p></li>
+                                            </ul> 
+                                        </div>
+                                        
                                         <br />
                                         <p className="text-center"><a href="https://www.taxbandits.com/form-1099-series/1099-penalties/">Learn More</a> about 1099 NEC Penalties</p>
                                         <p className="text-center"><a href="https://www.taxbandits.com/1099-forms/form-1099-nec-changes-for-2021/" className='btns'>E-file 1099-NEC Now</a></p>
@@ -377,7 +380,7 @@ export default function Home() {
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h2 className="mb-3 text-center"><span className="text-blue">States that require 1099-NEC filing for 2021</span></h2>
-                                <hr className="line mt-1 d-block mx-auto" />
+                                <br /> 
                                 <p>
                                   If your state has mandated the <a href="https://www.taxbandits.com/1099-forms/">filing of Form 1099</a>, you must file it on or before the state filing deadline. <a href="https://www.taxbandits.com/form-1099-series/1099-penalties/">Failing to file 1099-NEC</a> with the state may result in penalties.
                                 </p>
@@ -391,14 +394,15 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="py-5 bg-pink" id="contact">
-                    <div className="container">
-                        <h2 className="mb-2 text-center">Contact Us</h2>
-                        <hr className="line mt-1" />
-                        <p className="text-center">
-                          For any questions about e-filing your <a href="https://www.taxbandits.com/1099-forms/">Form 1099</a>, you can contact our support team by phone or email. Our team is here to assist you!
+                <section className="py-5" id="contact">
+                    <div className="container text-center">
+                        <h2 className="mb-2 ">Contact Us</h2>
+                        <br /> 
+                        <p className="">
+                        For any questions about e-filing your <a href="https://www.taxbandits.com/1099-forms/">Form 1099</a>, you can contact our support team by phone or email. Our team is here to assist you!
                         </p>
 
+                        
                         <div className="row">
                             <div className="col-xl-2 col-lg-2 col-md-2"></div>
                             <div className=" col-xl-4 col-lg-4 col-md-4 text-center border-right">
