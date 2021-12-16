@@ -83,7 +83,7 @@ export default function Home() {
                     <div className="container">
                         <div className="row vertical-align">
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
-                                <h1 className="mb-3 text-center"><span className="text-blue">IRS Form 1099 NEC<br/> for 2021 Tax Year</span></h1>
+                                <h1 className="mb-3 text-center"><span className="text-blue">IRS <span className="orange">Form 1099 NEC </span><br/> for 2021 Tax Year</span></h1>
                                 <p className="text-center">
                                 File Form 1099-NEC to Report Nonemployee Compensation
                                 </p>
@@ -91,10 +91,10 @@ export default function Home() {
                                     <a href="https://secure.taxbandits.com/User/Register/?ref=nec1099form" target="_blank" rel="noopener noreferrer" className="btns">E-file 1099-NEC Now</a>
                                 </div>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
+                            {/* <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
                                 <Image src="/images/Form-1099NEC.jpg" width={520} height={293} alt="w9request - easy to request software"
                                     className="img-responsive img-fluid img-border rounded" loading="lazy" />
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
@@ -106,7 +106,7 @@ export default function Home() {
                     <div className="container text-center my-3" id="form1099Nec">
                         <div className="row ">
                             <div className="col-8 mx-auto ">
-                                <h2 className="common_h2"> What is <span className="green">Form 1099 NEC </span>?</h2>
+                                <h2 className="common_h2"> What is <span className="orange">Form 1099 NEC </span>?</h2>
                                 <br />
                                 <p className="text-center">
                                 <a href="https://www.taxbandits.com/1099-forms/what-is-form-1099-nec/">Form 1099-NEC</a> is an IRS tax form used to report nonemployee compensation. <b>Payers should use this form if they have paid $600 or more to a vendor, independent contractor, or freelance worker during the tax year</b>. In addition to <a href="https://www.taxbandits.com/1099-forms/efile-form-1099-nec-online/">filing Form 1099-NEC</a> with the IRS, payers must also furnish a copy to their recipients. 
@@ -133,7 +133,7 @@ export default function Home() {
                     <div className="container py-3 " id="changes">      
                         <div className="row">
                             <div className="col-12 col-lg-12 col-xl-12 mx-auto text-center">
-                                <h2 className="common_h2 mb-2">What are IRS <span className="green">Form 1099 NEC</span> changes for the 2021 Tax Year?</h2>
+                                <h2 className="common_h2 mb-2">What are IRS <span className="orange">Form 1099 NEC</span> changes for the 2021 Tax Year?</h2>
                             </div>
                         </div>
                         <br />              
@@ -250,7 +250,7 @@ export default function Home() {
                         </h2>
                         <div className="row d-flex align-items-center">
                             <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 text-center d-none d-sm-block">
-                                <Image src="/images/Form-1099NEC.jpg" width={520} height={293} alt="w9request - easy to request software"
+                                <Image src="/images/filingReq.png" width={800} height={600} alt="filing requirements"
                                     className="img-responsive img-fluid img-border rounded" loading="lazy" />
                             </div>
                             <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 text-center text-md-start">
@@ -369,7 +369,7 @@ export default function Home() {
                                 </div>                                
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
-                                <Image src="/images/Form-1099NEC.jpg" width={520} height={293} alt="w9request - easy to request software"
+                                <Image src="/images/penalties.png" width={800} height={600} alt="penalties"
                                     className="img-responsive img-fluid img-border rounded" loading="lazy" />                               
                             </div>
                         </div>

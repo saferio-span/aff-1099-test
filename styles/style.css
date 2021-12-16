@@ -1,7 +1,7 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 *{padding: 0px;margin: 0px;font-family: 'Poppins', sans-serif;}
 p, ul li a{font-size:16px; }
-.banner_bg { background: url("/images/bannerbg.png") no-repeat; width: 100%; background-size: cover; background-color:#c0f4dc; display: flex; align-items: center; padding-top: 120px; padding-bottom: 70px; }
+.banner_bg { background: url("/images/bannerbg.jpg") no-repeat; width: 100%; background-size: cover; background-color:#c0f4dc; display: flex; align-items: center; padding-top: 120px; padding-bottom: 70px; }
 h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;}
 img{width:auto;max-width:100%;}
 .common_h1 {color: #000;font-size:36px;line-height:41px;font-weight:600;margin-bottom:20px;}
@@ -12,10 +12,10 @@ h5{font-size:22px;}
 .border{border:1px solid #ddd;}
 .sub_head{color: #7f7f7f;font-size:20px;}
 /* background:linear-gradient( #87efc1) */
-.btns {border:2px solid #4b4a8b;background: #4b4a8b;color: #fff !important;padding:10px 15px 9px;border-radius:5px;transition: all 0.5s ease-in-out;font-weight:normal;display: inline-block;font-size:17px;text-align:center; text-decoration:none;font-family: 'Poppins', sans-serif;text-transform: uppercase;font-weight:500;}
-.btns:hover{color: #000 !important; text-decoration:none;background:#40d897 !important;border:2px solid #40d897;}
+.btns {border:2px solid #215675;background: #215675;color: #fff !important;padding:10px 15px 9px;border-radius:5px;transition: all 0.5s ease-in-out;font-weight:normal;display: inline-block;font-size:17px;text-align:center; text-decoration:none;font-family: 'Poppins', sans-serif;text-transform: uppercase;font-weight:500;}
+.btns:hover{color: #000 !important; text-decoration:none;background:#E7873B !important;border:2px solid #E7873B;}
 .btns1{border:2px solid #87efc1;text-decoration:none; background: linear-gradient(45deg, #d2d0f6, #87efc1); color: #282786 !important; border-radius: 5px; padding: 10px 15px 9px;border:2px solid #6969e4;font-weight:500;font-size:17px;}
-.btns1:hover{color: #000 !important; text-decoration:none;background:#40d897 !important;border:2px solid #40d897;}
+.btns1:hover{color: #000 !important; text-decoration:none;background:#E7873B !important;border:2px solid #E7873B;}
 .patch {background-color:#fff !important;}   
     
 .transition{transition: all 0.3s linear;-webkit-transition: all 0.3s linear;-moz-transition: all 0.3s linear;}
@@ -88,20 +88,20 @@ ul{margin-bottom:0px;}
 .form_flow h5{font-size:16px;line-height:20px;}
 .before:before{display:none !important;}
 a:focus, a:hover{color: #000 !important; text-decoration: none;}
-a {color: #4b4a8b;text-decoration: underline;}
+a {color: #215675;text-decoration: underline;}
 a:hover{text-decoration: underline;}
 #gray_bg span	{color:#43208a !important;}
 .banner_cnt{padding:0px;}
 /*.irslogo { background: rgba(0,0,0,0) url(/images/irslogo.png) no-repeat scroll 0 0; height: 60px; width: 60px; display: block; margin: 0px; }*/
-nav .signup a.btnss { border: 2px solid #4b4a8b; color: #fff !important; padding: 8px !important; font-size: 14px; border-radius: 5px; margin-top: 2px; background: #4b4a8b;font-size:16px;}
+nav .signup a.btnss { border: 2px solid #215675; color: #fff !important; padding: 8px !important; font-size: 14px; border-radius: 5px; margin-top: 2px; background: #215675;font-size:16px;}
 .SignUP-pdngtop {margin-top: -2px;}
 .signup {padding:0px 5px 0px 5px;}
-nav .signup a.btnss:hover { color: #000 !important; background: #40d897 !important; border: 2px solid #40d897; }
+nav .signup a.btnss:hover { color: #000 !important; background: #E7873B !important; border: 2px solid #E7873B; }
 .logo {padding-top:80px;padding-left:-20px;}
 .dsktp { padding-top: 250px; margin-left: -535px; }
-.btns:focus{color: #000 !important; text-decoration:none;background:#40d897 !important;border: 2px solid #40d897;}
+.btns:focus{color: #000 !important; text-decoration:none;background:#E7873B !important;border: 2px solid #E7873B;}
 
-.btns:active{color: #000 !important; text-decoration:none;background:#40d897 !important;border:0px solid #40d897;}
+.btns:active{color: #000 !important; text-decoration:none;background:#E7873B !important;border:0px solid #E7873B;}
 .footer a {color:#000 !important;}
 .footer a:hover {color:#8a8888!important;}
 .bg-gray{background:#eee;}
@@ -229,8 +229,9 @@ body{overflow-y:inherit !important;padding:0px !important;}
 .visible{display:none;}
 .navbar-nav li a:hover{background: #ddfdf0 !important;border-radius:5px;}
 .green{color:#1bbe74;}
+.orange{color: #E7873B;}
 h2.faqtxt a{color:#000;text-decoration:underline;}
-h2.faqtxt a:hover{color:#4b4a8b !important;text-decoration:underline;}
+h2.faqtxt a:hover{color:#215675 !important;text-decoration:underline;}
 h2.faqtxt{font-size:18px;font-weight:400;text-align:left;padding-bottom:10px;line-height:25px;}
 .faq h2{position:relative;padding:0 0 10px 25px;}
 h2.faqtxt:before { content: "Q."; position: absolute; left: 0; top: 0px; font-size: 17px; color: #55549f; font-weight: 500; }
