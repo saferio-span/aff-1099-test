@@ -107,7 +107,7 @@ export default function Home() {
                 <section className=" py-lg-5 py-md-3 py-sm-1" id="duedate">
 
                     {/* section 2 div 1 */}
-                    <div className="container text-center my-lg-3 my-md-1 my-sm-1" id="form1099Nec">
+                    <div className="container text-center my-lg-3 my-md-3 my-sm-3" id="form1099Nec">
                         <div className="row ">
                             <div className="col-8 mx-auto ">
                                 <h2 className="common_h2"> What is <span className="orange">Form 1099 NEC</span>?</h2>
@@ -243,7 +243,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section id="deadlines" className="py-lg-5 py-md-3 py-sm-3 bgpat text-light">
+                <section id="deadlines" className="py-lg-5 py-md-4 py-sm-4 bgpat text-light">
                     <div className="container">
                         <h2 className="mb-4 text-center">
                             What are the filing requirements for <span className="orange">Form 1099 NEC</span>?

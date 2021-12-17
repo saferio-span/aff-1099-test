@@ -131,7 +131,16 @@ banner_bg { height: 90vh; padding-bottom: 30px; background-position: bottom; pad
   
 .navbar{
     background-color: #FFF0E2 !important;
-}   
+} 
+#form1099Nec,#steps{
+    padding-top: 20px;
+}  
+
+#deadlines{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}  
+
 }
 @media only screen and (min-width:705px) and (max-width:1024px) {.banner_bg{height:auto;padding-top:110px;}}
 
