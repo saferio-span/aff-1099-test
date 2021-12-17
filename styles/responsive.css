@@ -41,6 +41,9 @@ nav .signup a.btnss{color: 000 !important; padding: 5px 7px !important; font-siz
 .unordered_list li:before{top:6px;}.sub_list li:before{top:9px !important;}.stepbg p{min-height:90px;}
 }
 @media only screen and (max-width:767px) {
+    .navbar{
+        background-color: #FFF0E2 !important;
+    }
     .green { color: #1bbe74; font-size: 18px !important; line-height: 24px; }
 .offset {
 	width: 91%;
@@ -109,6 +112,9 @@ banner_bg { height: 90vh; padding-bottom: 30px; background-position: bottom; pad
     padding: 0px 5px 0px 5px;
     width: max-content;
 }
+.navbar{
+    background-color: #FFF0E2 !important;
+}
 }
 @media only screen and (max-width:575px) {
 .common_h1 {font-size: 22px;line-height: 30px;margin-top: 0px !important;}
@@ -119,11 +125,13 @@ banner_bg { height: 90vh; padding-bottom: 30px; background-position: bottom; pad
 .automatic_deadbox h3 span {display:inline-block;}
 .automatic_deadbox p {padding: 0px 10px;font-size: 14px;}
 .app_img img{width:134px;}
-   .banner_bg {height:auto;padding-bottom:30px;background:linear-gradient(180deg, #7878e7 0%, #45dd98 160%);padding-top:85px;}
+   .banner_bg {height:auto;padding-bottom:30px;background:linear-gradient(180deg, #FFF0E2 0%, #E7873B 160%);padding-top:85px;}
   .py-5 {padding: 2rem 0px !important;}
     .my-5{margin:15px 0px !important;}
   
-   
+.navbar{
+    background-color: #FFF0E2 !important;
+}   
 }
 @media only screen and (min-width:705px) and (max-width:1024px) {.banner_bg{height:auto;padding-top:110px;}}
 
